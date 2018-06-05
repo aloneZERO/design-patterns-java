@@ -1,13 +1,12 @@
-import java.io.Serializable;
+package imp1;
 
-public class Singleton implements Serializable{
-
+public class Singleton {
     private static Singleton uniqueInstance;
 
     private Singleton() {
     }
 
-    public static synchronized Singleton getUniqueInstance() {
+    public static Singleton getUniqueInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new Singleton();
         }
