@@ -11,6 +11,6 @@ public class ConcreteAggregate implements Aggregate {
 
     @Override
     public Iterator createIterator() {
-        return new ConcreteIterator<Integer>(items);
+        return new ConcreteIterator(items);
     }
 }

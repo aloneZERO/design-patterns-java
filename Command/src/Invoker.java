@@ -4,9 +4,9 @@
 public class Invoker {
     private Command[] onCommands;
     private Command[] offCommands;
-    private final int slotNum = 7;
 
     public Invoker() {
+        int slotNum = 7;
         this.onCommands = new Command[slotNum];
         this.offCommands = new Command[slotNum];
     }
