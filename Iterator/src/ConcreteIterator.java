@@ -1,19 +1,23 @@
-public class ConcreteIterator<Item> implements Iterator {
+public class ConcreteIterator<Item> implements Iterator
+{
 
     private Item[] items;
     private int position = 0;
 
-    public ConcreteIterator(Item[] items) {
+    public ConcreteIterator(Item[] items)
+    {
         this.items = items;
     }
 
     @Override
-    public Object next() {
+    public Object next()
+    {
         return items[position++];
     }
 
     @Override
-    public boolean hasNext() {
+    public boolean hasNext()
+    {
         return position < items.length;
     }
 }

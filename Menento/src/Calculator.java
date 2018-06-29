@@ -1,7 +1,8 @@
 /**
  * Originator Interface
  */
-public interface Calculator {
+public interface Calculator
+{
 
     // Create Memento
     PreviousCalculationToCareTaker backupLastCalculation();

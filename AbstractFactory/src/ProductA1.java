@@ -1,2 +1,3 @@
-public class ProductA1 extends AbstractProductA {
+public class ProductA1 extends AbstractProductA
+{
 }

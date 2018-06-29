@@ -1,2 +1,3 @@
-public class AbstractProductB {
+public class AbstractProductB
+{
 }

@@ -1,3 +1,4 @@
-public interface Element {
-	void accept(Visitor visitor);
+public interface Element
+{
+    void accept(Visitor visitor);
 }

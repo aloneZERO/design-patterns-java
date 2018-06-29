@@ -1,5 +1,7 @@
-public class Client {
-    public static void main(String[] args) {
+public class Client
+{
+    public static void main(String[] args)
+    {
         Composite root = new Composite("root");
         Component node1 = new Leaf("1");
         Component node2 = new Composite("2");

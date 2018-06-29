@@ -1,28 +1,33 @@
 import java.util.Arrays;
 
-public class AbstractStringBuilder {
+public class AbstractStringBuilder
+{
     protected char[] value;
 
     protected int count;
 
-    public AbstractStringBuilder(int capacity) {
+    public AbstractStringBuilder(int capacity)
+    {
         count = 0;
         value = new char[capacity];
     }
 
-    public AbstractStringBuilder append(char c) {
+    public AbstractStringBuilder append(char c)
+    {
         ensureCapacityInternal(count + 1);
         value[count++] = c;
         return this;
     }
 
-    private void ensureCapacityInternal(int minimumCapacity) {
+    private void ensureCapacityInternal(int minimumCapacity)
+    {
         // overflow-conscious code
         if (minimumCapacity - value.length > 0)
             expandCapacity(minimumCapacity);
     }
 
-    void expandCapacity(int minimumCapacity) {
+    void expandCapacity(int minimumCapacity)
+    {
         int newCapacity = value.length * 2 + 2;
         if (newCapacity - minimumCapacity < 0)
             newCapacity = minimumCapacity;

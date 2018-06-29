@@ -1,6 +1,8 @@
-public class Client {
+public class Client
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         GumballMachine gumballMachine = new GumballMachine(5);
 
         gumballMachine.insertQuarter();

@@ -1,3 +1,4 @@
-public interface Turkey {
+public interface Turkey
+{
     void gobble();
 }

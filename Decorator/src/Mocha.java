@@ -1,11 +1,14 @@
-public class Mocha extends CondimentDecorator {
+public class Mocha extends CondimentDecorator
+{
 
-    public Mocha(Beverage beverage) {
+    public Mocha(Beverage beverage)
+    {
         this.beverage = beverage;
     }
 
     @Override
-    public double cost() {
+    public double cost()
+    {
         return 1 + beverage.cost();
     }
 }

@@ -1,14 +1,17 @@
 import java.util.StringTokenizer;
 
-public class TerminalExpression extends Expression {
+public class TerminalExpression extends Expression
+{
 
     private String literal = null;
 
-    public TerminalExpression(String str) {
+    public TerminalExpression(String str)
+    {
         literal = str;
     }
 
-    public boolean interpret(String str) {
+    public boolean interpret(String str)
+    {
         StringTokenizer st = new StringTokenizer(str);
         while (st.hasMoreTokens()) {
             String test = st.nextToken();

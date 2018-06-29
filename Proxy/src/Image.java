@@ -1,3 +1,4 @@
-public interface Image {
+public interface Image
+{
     void showImage();
 }

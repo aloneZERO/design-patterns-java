@@ -1,11 +1,14 @@
-public class Tea extends CaffeineBeverage{
+public class Tea extends CaffeineBeverage
+{
     @Override
-    void brew() {
+    void brew()
+    {
         System.out.println("Tea.brew");
     }
 
     @Override
-    void addCondiments() {
+    void addCondiments()
+    {
         System.out.println("Tea.addCondiments");
     }
 }

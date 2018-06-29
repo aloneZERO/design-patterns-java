@@ -1,9 +1,11 @@
-public class Client {
+public class Client
+{
 
     /**
      * 构建解析树
      */
-    public static Expression buildInterpreterTree() {
+    public static Expression buildInterpreterTree()
+    {
         // Literal
         Expression terminal1 = new TerminalExpression("A");
         Expression terminal2 = new TerminalExpression("B");
@@ -17,7 +19,8 @@ public class Client {
         return new AndExpression(terminal4, alternation2);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Expression define = buildInterpreterTree();
         String context1 = "D A";
         String context2 = "A B";

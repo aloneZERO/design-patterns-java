@@ -1,8 +1,10 @@
-public class ConcreteAggregate implements Aggregate {
+public class ConcreteAggregate implements Aggregate
+{
 
     private Integer[] items;
 
-    public ConcreteAggregate() {
+    public ConcreteAggregate()
+    {
         items = new Integer[10];
         for (int i = 0; i < items.length; i++) {
             items[i] = i;
@@ -10,7 +12,8 @@ public class ConcreteAggregate implements Aggregate {
     }
 
     @Override
-    public Iterator createIterator() {
+    public Iterator createIterator()
+    {
         return new ConcreteIterator(items);
     }
 }

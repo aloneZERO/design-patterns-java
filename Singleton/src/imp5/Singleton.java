@@ -1,5 +1,6 @@
 package imp5;
 
-public enum Singleton {
+public enum Singleton
+{
     uniqueInstance
 }

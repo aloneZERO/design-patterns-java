@@ -1,5 +1,7 @@
-public class Client {
-    public static void main(String[] args) {
+public class Client
+{
+    public static void main(String[] args)
+    {
         Invoker invoker = new Invoker();
         Light light = new Light();
         Command lightOnCommand = new LightOnCommand(light);

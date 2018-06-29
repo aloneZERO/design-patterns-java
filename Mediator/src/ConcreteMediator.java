@@ -1,10 +1,12 @@
-public class ConcreteMediator extends Mediator {
+public class ConcreteMediator extends Mediator
+{
     private Alarm alarm;
     private CoffeePot coffeePot;
     private Calender calender;
     private Sprinkler sprinkler;
 
-    public ConcreteMediator(Alarm alarm, CoffeePot coffeePot, Calender calender, Sprinkler sprinkler) {
+    public ConcreteMediator(Alarm alarm, CoffeePot coffeePot, Calender calender, Sprinkler sprinkler)
+    {
         this.alarm = alarm;
         this.coffeePot = coffeePot;
         this.calender = calender;
@@ -12,7 +14,8 @@ public class ConcreteMediator extends Mediator {
     }
 
     @Override
-    public void doEvent(String eventType) {
+    public void doEvent(String eventType)
+    {
         switch (eventType) {
             case "alarm":
                 doAlarmEvent();
@@ -28,22 +31,26 @@ public class ConcreteMediator extends Mediator {
         }
     }
 
-    public void doAlarmEvent() {
+    public void doAlarmEvent()
+    {
         alarm.doAlarm();
         coffeePot.doCoffeePot();
         calender.doCalender();
         sprinkler.doSprinkler();
     }
 
-    public void doCoffeePotEvent() {
+    public void doCoffeePotEvent()
+    {
         // ...
     }
 
-    public void doCalenderEvent() {
+    public void doCalenderEvent()
+    {
         // ...
     }
 
-    public void doSprinklerEvent() {
+    public void doSprinklerEvent()
+    {
         // ...
     }
 }

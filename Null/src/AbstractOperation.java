@@ -1,3 +1,4 @@
-public abstract class AbstractOperation {
+public abstract class AbstractOperation
+{
     abstract void request();
 }

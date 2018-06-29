@@ -1,3 +1,4 @@
-public interface Beverage {
+public interface Beverage
+{
     double cost();
 }

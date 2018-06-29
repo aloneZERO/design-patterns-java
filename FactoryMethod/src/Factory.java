@@ -1,6 +1,9 @@
-public abstract class Factory {
+public abstract class Factory
+{
     abstract public Product factoryMethod();
-    public void doSomething() {
+
+    public void doSomething()
+    {
         Product product = factoryMethod();
         // do something with the product
     }

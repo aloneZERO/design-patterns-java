@@ -1,5 +1,7 @@
-public class Client {
-    public static void main(String[] args) {
+public class Client
+{
+    public static void main(String[] args)
+    {
         Alarm alarm = new Alarm();
         CoffeePot coffeePot = new CoffeePot();
         Calender calender = new Calender();

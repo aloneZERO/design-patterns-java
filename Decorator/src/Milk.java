@@ -1,11 +1,14 @@
-public class Milk extends CondimentDecorator {
+public class Milk extends CondimentDecorator
+{
 
-    public Milk(Beverage beverage) {
+    public Milk(Beverage beverage)
+    {
         this.beverage = beverage;
     }
 
     @Override
-    public double cost() {
+    public double cost()
+    {
         return 1 + beverage.cost();
     }
 }

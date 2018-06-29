@@ -1,5 +1,7 @@
-public class Client {
-    public static void main(String[] args) {
+public class Client
+{
+    public static void main(String[] args)
+    {
         Customer customer1 = new Customer("customer1");
         customer1.addOrder(new Order("order1", "item1"));
         customer1.addOrder(new Order("order2", "item1"));

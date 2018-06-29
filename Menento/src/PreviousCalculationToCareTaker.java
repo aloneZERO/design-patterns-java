@@ -1,6 +1,7 @@
 /**
- *  Memento interface to CalculatorOperator (Caretaker)
+ * Memento interface to CalculatorOperator (Caretaker)
  */
-public interface PreviousCalculationToCareTaker {
-	// no operations permitted for the caretaker
+public interface PreviousCalculationToCareTaker
+{
+    // no operations permitted for the caretaker
 }

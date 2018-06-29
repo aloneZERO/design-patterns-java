@@ -1,5 +1,7 @@
-public class Client {
-    public static void main(String[] args) {
+public class Client
+{
+    public static void main(String[] args)
+    {
         int type = 1;
         Product product;
         if (type == 1) {

@@ -1,9 +1,12 @@
-public class ConcreteFactory1 extends AbstractFactory{
-    AbstractProductA createProductA() {
+public class ConcreteFactory1 extends AbstractFactory
+{
+    AbstractProductA createProductA()
+    {
         return new ProductA1();
     }
 
-    AbstractProductB createProductB() {
+    AbstractProductB createProductB()
+    {
         return new ProductB1();
     }
 }

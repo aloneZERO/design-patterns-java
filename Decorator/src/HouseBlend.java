@@ -1,6 +1,8 @@
-public class HouseBlend implements Beverage {
+public class HouseBlend implements Beverage
+{
     @Override
-    public double cost() {
+    public double cost()
+    {
         return 1;
     }
 }

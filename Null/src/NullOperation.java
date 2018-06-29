@@ -1,6 +1,8 @@
-public class NullOperation extends AbstractOperation{
+public class NullOperation extends AbstractOperation
+{
     @Override
-    void request() {
+    void request()
+    {
         // do nothing
     }
 }
