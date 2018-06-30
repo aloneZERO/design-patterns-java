@@ -2232,7 +2232,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFjyy2Vqi50TJg="
 							},
-							"name": "state"
+							"name": "state",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -2298,7 +2299,7 @@
 								"reference": {
 									"$ref": "AAAAAAFjyy2Vqi50TJg="
 								},
-								"aggregation": "composite"
+								"aggregation": "shared"
 							}
 						}
 					],
