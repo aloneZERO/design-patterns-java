@@ -720,9 +720,9 @@
 											"font": "Arial;13;1",
 											"left": 509,
 											"top": 327,
-											"width": 106.208984375,
+											"width": 113.43896484375,
 											"height": 13,
-											"text": "ConreteObserver"
+											"text": "ConcreteObserver"
 										},
 										{
 											"_type": "LabelView",
@@ -755,7 +755,7 @@
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 320,
-									"width": 116.208984375,
+									"width": 123.43896484375,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFjypqAXpGNBSE="
@@ -782,7 +782,7 @@
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 345,
-									"width": 116.208984375,
+									"width": 123.43896484375,
 									"height": 10
 								},
 								{
@@ -807,7 +807,7 @@
 											"font": "Arial;13;0",
 											"left": 509,
 											"top": 360,
-											"width": 106.208984375,
+											"width": 113.43896484375,
 											"height": 13,
 											"text": "+update(): void",
 											"horizontalAlignment": 0
@@ -816,7 +816,7 @@
 									"font": "Arial;13;0",
 									"left": 504,
 									"top": 355,
-									"width": 116.208984375,
+									"width": 123.43896484375,
 									"height": 23
 								},
 								{
@@ -856,7 +856,7 @@
 							"containerChangeable": true,
 							"left": 504,
 							"top": 320,
-							"width": 116.208984375,
+							"width": 123.43896484375,
 							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAFjypqAXpGMYD4="
@@ -989,8 +989,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 545,
-									"top": 263,
+									"left": 547,
+									"top": 264,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1010,8 +1010,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 530,
-									"top": 263,
+									"left": 532,
+									"top": 264,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1031,8 +1031,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 574,
-									"top": 264,
+									"left": 576,
+									"top": 263,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1050,7 +1050,7 @@
 								"$ref": "AAAAAAFjypqAXpGLSsk="
 							},
 							"lineStyle": 1,
-							"points": "561:319;560:221",
+							"points": "564:319;561:221",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFjyprylpHQ7N8="
@@ -2063,7 +2063,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "ConreteObserver",
+					"name": "ConcreteObserver",
 					"ownedElements": [
 						{
 							"_type": "UMLInterfaceRealization",

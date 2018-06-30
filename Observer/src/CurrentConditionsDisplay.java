@@ -1,6 +1,5 @@
 public class CurrentConditionsDisplay implements Observer
 {
-
     public CurrentConditionsDisplay(Subject weatherData)
     {
         weatherData.resisterObserver(this);

@@ -1,6 +1,5 @@
 public class StatisticsDisplay implements Observer
 {
-
     public StatisticsDisplay(Subject weatherData)
     {
         weatherData.resisterObserver(this);
