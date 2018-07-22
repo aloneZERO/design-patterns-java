@@ -1,8 +1,6 @@
-public abstract class CaffeineBeverage
-{
+public abstract class CaffeineBeverage {
 
-    final void prepareRecipe()
-    {
+    final void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();
@@ -13,13 +11,11 @@ public abstract class CaffeineBeverage
 
     abstract void addCondiments();
 
-    void boilWater()
-    {
+    void boilWater() {
         System.out.println("boilWater");
     }
 
-    void pourInCup()
-    {
+    void pourInCup() {
         System.out.println("pourInCup");
     }
 }

@@ -1,4 +1,3 @@
-public interface QuackBehavior
-{
+public interface QuackBehavior {
     void quack();
 }

@@ -1,9 +1,8 @@
-public abstract class RemoteControl
-{
+public abstract class RemoteControl {
+
     protected TV tv;
 
-    public RemoteControl(TV tv)
-    {
+    public RemoteControl(TV tv) {
         this.tv = tv;
     }
 
@@ -12,4 +11,5 @@ public abstract class RemoteControl
     public abstract void off();
 
     public abstract void tuneChannel();
+
 }

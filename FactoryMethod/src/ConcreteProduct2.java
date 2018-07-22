@@ -1,3 +1,2 @@
-public class ConcreteProduct2 implements Product
-{
+public class ConcreteProduct2 implements Product {
 }

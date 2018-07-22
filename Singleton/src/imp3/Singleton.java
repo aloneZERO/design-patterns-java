@@ -1,15 +1,15 @@
 package imp3;
 
-public class Singleton
-{
+public class Singleton {
+
     private static Singleton uniqueInstance = new Singleton();
 
-    private Singleton()
-    {
+
+    private Singleton() {
     }
 
-    public static Singleton getUniqueInstance()
-    {
+
+    public static Singleton getUniqueInstance() {
         return uniqueInstance;
     }
 }

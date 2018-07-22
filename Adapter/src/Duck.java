@@ -1,4 +1,5 @@
-public interface Duck
-{
+public interface Duck {
+
     void quack();
+
 }

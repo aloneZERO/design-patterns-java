@@ -1,5 +1,5 @@
-public interface State
-{
+public interface State {
+
     /**
      * 投入 25 分钱
      */

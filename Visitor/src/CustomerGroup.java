@@ -1,20 +1,17 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class CustomerGroup
-{
+class CustomerGroup {
 
     private List<Customer> customers = new ArrayList<>();
 
-    void accept(Visitor visitor)
-    {
+    void accept(Visitor visitor) {
         for (Customer customer : customers) {
             customer.accept(visitor);
         }
     }
 
-    void addCustomer(Customer customer)
-    {
+    void addCustomer(Customer customer) {
         customers.add(customer);
     }
 }

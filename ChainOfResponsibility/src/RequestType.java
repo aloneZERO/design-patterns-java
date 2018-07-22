@@ -1,4 +1,5 @@
-public enum RequestType
-{
+public enum RequestType {
+
     type1, type2
+
 }

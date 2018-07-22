@@ -1,8 +1,8 @@
-public class RealOperation extends AbstractOperation
-{
+public class RealOperation extends AbstractOperation {
+
     @Override
-    void request()
-    {
+    void request() {
         System.out.println("do something");
     }
+
 }

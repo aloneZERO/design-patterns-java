@@ -1,11 +1,10 @@
 /**
  * CareTaker object
  */
-public class Client
-{
+public class Client {
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
+
         // program starts
         Calculator calculator = new CalculatorImp();
 

@@ -1,20 +1,20 @@
-public class Sony extends TV
-{
+public class Sony extends TV {
+
     @Override
-    public void on()
-    {
+    public void on() {
         System.out.println("Sony.on()");
     }
 
+
     @Override
-    public void off()
-    {
+    public void off() {
         System.out.println("Sony.off()");
     }
 
+
     @Override
-    public void tuneChannel()
-    {
+    public void tuneChannel() {
         System.out.println("Sony.tuneChannel()");
     }
+
 }

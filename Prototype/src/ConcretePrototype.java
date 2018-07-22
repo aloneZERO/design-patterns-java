@@ -1,22 +1,21 @@
-public class ConcretePrototype extends Prototype
-{
+public class ConcretePrototype extends Prototype {
 
     private String filed;
 
-    public ConcretePrototype(String filed)
-    {
+
+    public ConcretePrototype(String filed) {
         this.filed = filed;
     }
 
+
     @Override
-    Prototype myClone()
-    {
+    Prototype myClone() {
         return new ConcretePrototype(filed);
     }
 
+
     @Override
-    public String toString()
-    {
+    public String toString() {
         return filed;
     }
 }

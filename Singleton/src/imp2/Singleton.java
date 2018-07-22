@@ -1,15 +1,15 @@
 package imp2;
 
-public class Singleton
-{
+public class Singleton {
+
     private static Singleton uniqueInstance;
 
-    private Singleton()
-    {
+
+    private Singleton() {
     }
 
-    public static synchronized Singleton getUniqueInstance()
-    {
+
+    public static synchronized Singleton getUniqueInstance() {
         if (uniqueInstance == null) {
             uniqueInstance = new Singleton();
         }

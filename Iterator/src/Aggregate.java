@@ -1,4 +1,5 @@
-public interface Aggregate
-{
+public interface Aggregate {
+
     Iterator createIterator();
+
 }
