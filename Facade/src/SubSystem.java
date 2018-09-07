@@ -4,11 +4,9 @@ public class SubSystem {
         System.out.println("turnOnTV()");
     }
 
-
     public void setCD(String cd) {
         System.out.println("setCD( " + cd + " )");
     }
-
 
     public void starWatching() {
         System.out.println("starWatching()");

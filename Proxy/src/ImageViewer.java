@@ -11,6 +11,5 @@ public class ImageViewer {
         HighResolutionImage highResolutionImage = new HighResolutionImage(url);
         ImageProxy imageProxy = new ImageProxy(highResolutionImage);
         imageProxy.showImage();
-
     }
 }

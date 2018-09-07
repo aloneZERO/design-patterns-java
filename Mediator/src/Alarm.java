@@ -9,5 +9,4 @@ public class Alarm extends Colleague {
     public void doAlarm() {
         System.out.println("doAlarm()");
     }
-
 }

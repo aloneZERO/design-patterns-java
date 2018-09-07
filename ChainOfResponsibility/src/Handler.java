@@ -9,5 +9,4 @@ public abstract class Handler {
 
 
     protected abstract void handleRequest(Request request);
-
 }

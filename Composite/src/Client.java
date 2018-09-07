@@ -23,6 +23,5 @@ public class Client {
         node22.add(node221);
 
         root.print();
-
     }
 }

@@ -4,5 +4,4 @@ public class RealOperation extends AbstractOperation {
     void request() {
         System.out.println("do something");
     }
-
 }

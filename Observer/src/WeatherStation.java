@@ -9,6 +9,5 @@ public class WeatherStation {
 
         weatherData.setMeasurements(0, 0, 0);
         weatherData.setMeasurements(1, 1, 1);
-
     }
 }

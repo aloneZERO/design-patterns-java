@@ -4,13 +4,10 @@ public class Singleton {
 
     private volatile static Singleton uniqueInstance;
 
-
     private Singleton() {
     }
 
-
     public static Singleton getUniqueInstance() {
-
         if (uniqueInstance == null) {
             synchronized (Singleton.class) {
                 if (uniqueInstance == null) {
@@ -18,7 +15,6 @@ public class Singleton {
                 }
             }
         }
-
         return uniqueInstance;
     }
 }

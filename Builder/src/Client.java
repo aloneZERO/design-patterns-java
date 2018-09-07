@@ -11,6 +11,5 @@ public class Client {
         }
 
         System.out.println(sb.toString());
-
     }
 }

@@ -14,6 +14,5 @@ public class Client {
 
         invoker.onButtonWasPushed(0);
         invoker.offButtonWasPushed(0);
-
     }
 }

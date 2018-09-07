@@ -1,5 +1,3 @@
 public enum RequestType {
-
-    type1, type2
-
+    TYPE1, TYPE2
 }

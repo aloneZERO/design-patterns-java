@@ -7,14 +7,12 @@ public class ConcreteHandler1 extends Handler {
 
     @Override
     protected void handleRequest(Request request) {
-
-        if (request.getType() == RequestType.type1) {
+        if (request.getType() == RequestType.TYPE1) {
             System.out.println(request.getName() + " is handle by ConcreteHandler1");
             return;
         }
         if (successor != null) {
             successor.handleRequest(request);
         }
-
     }
 }

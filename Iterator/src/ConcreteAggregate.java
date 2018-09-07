@@ -13,7 +13,7 @@ public class ConcreteAggregate implements Aggregate {
 
     @Override
     public Iterator createIterator() {
-        return new ConcreteIterator(items);
+        return new ConcreteIterator<>(items);
     }
 
 }

@@ -4,5 +4,4 @@ public class NullOperation extends AbstractOperation {
     void request() {
         // do nothing
     }
-
 }

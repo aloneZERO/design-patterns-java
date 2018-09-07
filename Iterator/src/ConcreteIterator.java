@@ -19,5 +19,4 @@ public class ConcreteIterator<Item> implements Iterator {
     public boolean hasNext() {
         return position < items.length;
     }
-
 }

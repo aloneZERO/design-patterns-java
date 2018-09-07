@@ -5,5 +5,4 @@ public class Client {
         Prototype clone = prototype.myClone();
         System.out.println(clone.toString());
     }
-
 }

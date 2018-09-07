@@ -13,7 +13,6 @@ public class Leaf extends Component {
         }
 
         System.out.println("left:" + name);
-
     }
 
 

@@ -4,11 +4,10 @@ public class Client {
 
         Aggregate aggregate = new ConcreteAggregate();
 
-        Iterator<Integer> iterator = aggregate.createIterator();
+        Iterator iterator = aggregate.createIterator();
 
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
-
     }
 }

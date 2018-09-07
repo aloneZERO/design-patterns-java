@@ -5,9 +5,7 @@ public class Calender extends Colleague {
         mediator.doEvent("calender");
     }
 
-
     public void doCalender() {
         System.out.println("doCalender()");
     }
-
 }

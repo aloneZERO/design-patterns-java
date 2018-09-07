@@ -9,6 +9,5 @@ public class Client {
 
         flyweight1.doOperation("x");
         flyweight2.doOperation("y");
-
     }
 }

@@ -5,9 +5,7 @@ public class Sprinkler extends Colleague {
         mediator.doEvent("sprinkler");
     }
 
-
     public void doSprinkler() {
         System.out.println("doSprinkler()");
     }
-
 }

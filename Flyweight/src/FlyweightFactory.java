@@ -13,6 +13,5 @@ public class FlyweightFactory {
         }
 
         return flyweights.get(intrinsicState);
-
     }
 }

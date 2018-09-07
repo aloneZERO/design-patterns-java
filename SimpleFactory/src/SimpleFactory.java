@@ -8,5 +8,4 @@ public class SimpleFactory {
         }
         return new ConcreteProduct();
     }
-
 }

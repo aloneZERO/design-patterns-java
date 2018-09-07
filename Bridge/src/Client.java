@@ -8,6 +8,5 @@ public class Client {
         remoteControl1.off();
 
         remoteControl1.tuneChannel();
-
     }
 }

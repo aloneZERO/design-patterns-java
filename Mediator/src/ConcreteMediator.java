@@ -30,7 +30,6 @@ public class ConcreteMediator extends Mediator {
             default:
                 doSprinklerEvent();
         }
-
     }
 
 
@@ -55,5 +54,4 @@ public class ConcreteMediator extends Mediator {
     public void doSprinklerEvent() {
         // ...
     }
-
 }

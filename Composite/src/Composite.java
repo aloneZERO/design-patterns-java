@@ -24,7 +24,6 @@ public class Composite extends Component {
         for (Component component : child) {
             component.print(level + 1);
         }
-
     }
 
 

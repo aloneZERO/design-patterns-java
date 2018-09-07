@@ -38,5 +38,4 @@ public class CalculatorImp implements Calculator {
     public void setSecondNumber(int secondNumber) {
         this.secondNumber = secondNumber;
     }
-
 }

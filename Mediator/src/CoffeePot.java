@@ -5,9 +5,7 @@ public class CoffeePot extends Colleague {
         mediator.doEvent("coffeePot");
     }
 
-
     public void doCoffeePot() {
         System.out.println("doCoffeePot()");
     }
-
 }

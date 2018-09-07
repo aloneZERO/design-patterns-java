@@ -13,6 +13,5 @@ public class OrExpression extends Expression {
     public boolean interpret(String str) {
         return expression1.interpret(str) || expression2.interpret(str);
     }
-
 }
 

@@ -7,5 +7,4 @@ public class ConcreteFactory1 extends AbstractFactory {
     AbstractProductB createProductB() {
         return new ProductB1();
     }
-
 }

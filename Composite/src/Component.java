@@ -20,5 +20,4 @@ public abstract class Component {
 
 
     abstract public void remove(Component component);
-
 }

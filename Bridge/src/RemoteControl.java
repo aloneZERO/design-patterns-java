@@ -11,5 +11,4 @@ public abstract class RemoteControl {
     public abstract void off();
 
     public abstract void tuneChannel();
-
 }

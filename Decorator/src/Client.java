@@ -8,6 +8,5 @@ public class Client {
         beverage = new Milk(beverage);
 
         System.out.println(beverage.cost());
-
     }
 }

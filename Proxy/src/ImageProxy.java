@@ -21,6 +21,5 @@ public class ImageProxy implements Image {
         }
 
         highResolutionImage.showImage();
-
     }
 }

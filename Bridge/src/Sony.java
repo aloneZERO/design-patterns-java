@@ -16,5 +16,4 @@ public class Sony extends TV {
     public void tuneChannel() {
         System.out.println("Sony.tuneChannel()");
     }
-
 }

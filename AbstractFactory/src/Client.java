@@ -8,6 +8,5 @@ public class Client {
         AbstractProductB productB = abstractFactory.createProductB();
 
         // do something with productA and productB
-
     }
 }

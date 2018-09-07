@@ -32,6 +32,5 @@ public class Client {
 
         System.out.println(define.interpret(context1));
         System.out.println(define.interpret(context2));
-
     }
 }
