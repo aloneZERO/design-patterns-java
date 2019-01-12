@@ -21,3 +21,5 @@
 ## How to Contribute
 
 欢迎对代码和 UML 图进行编辑改正！
+
+Created my free logo at LogoMakr.com @logomakr
