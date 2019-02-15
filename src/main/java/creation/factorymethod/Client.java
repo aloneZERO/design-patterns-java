@@ -5,7 +5,6 @@ import creation.factorymethod.factory.SmartisanR1Factory;
 import creation.factorymethod.phone.SmartPhone;
 
 /**
- * @author justZero
  * @since 2019/2/14
  */
 public class Client {

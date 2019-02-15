@@ -14,7 +14,6 @@ package creation.singleton;
  * 6. 枚举实现（推荐）
  * </pre>
  *
- * @author justZero
  * @since 2019/2/14
  */
 public interface Singleton {

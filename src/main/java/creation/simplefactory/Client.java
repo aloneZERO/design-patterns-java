@@ -8,7 +8,6 @@ import creation.simplefactory.phone.SmartPhone;
  * 以下的 Client 类包含了实例化的代码，这是一种错误的实现。
  * 如果在客户类中存在这种实例化代码，就需要考虑将代码放到简单工厂中。
  *
- * @author justZero
  * @since 2019/2/14
  */
 public class Client {

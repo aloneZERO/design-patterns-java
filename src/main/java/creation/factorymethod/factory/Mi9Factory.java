@@ -4,7 +4,6 @@ import creation.factorymethod.phone.Mi9;
 import creation.factorymethod.phone.SmartPhone;
 
 /**
- * @author justZero
  * @since 2019/2/14
  */
 public class Mi9Factory extends Factory {

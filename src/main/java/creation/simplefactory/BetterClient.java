@@ -6,7 +6,6 @@ import creation.simplefactory.phone.SmartPhone;
 /**
  * 使用简单工厂创建客户端
  *
- * @author justZero
  * @since 2019/2/14
  */
 public class BetterClient {

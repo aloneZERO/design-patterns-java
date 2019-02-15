@@ -1,7 +1,6 @@
 package creation.factorymethod.phone;
 
 /**
- * @author justZero
  * @since 2019/2/14
  */
 public class SmartisanR1 implements SmartPhone {

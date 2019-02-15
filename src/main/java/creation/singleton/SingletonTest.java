@@ -6,7 +6,6 @@ import creation.singleton.impl6.Singleton;
 import static org.junit.Assert.*;
 
 /**
- * @author justZero
  * @since 2019/2/14
  */
 public class SingletonTest {

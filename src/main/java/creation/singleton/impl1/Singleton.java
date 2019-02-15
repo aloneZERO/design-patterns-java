@@ -11,7 +11,6 @@ package creation.singleton.impl1;
  * 那么会有多个线程执行 uniqueInstance = new Singleton(); 语句，
  * 这将导致实例化多次 uniqueInstance。
  *
- * @author justZero
  * @since 2019/2/14
  */
 public class Singleton {

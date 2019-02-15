@@ -13,7 +13,6 @@ import lombok.Setter;
  * 然后调用构造函数从而实例化对象，如果要防止这种攻击，需要在构造函数中添加防止多次实例化的代码。
  * 该实现是由 JVM 保证只会实例化一次，因此不会出现上述的反射攻击。
  *
- * @author justZero
  * @since 2019/2/14
  */
 public enum Singleton {

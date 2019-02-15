@@ -3,7 +3,7 @@ package creation.simplefactory.phone;
 /**
  * 小米9
  *
- * @author justZero
+
  * @since 2019/2/14
  */
 public class Mi9 implements SmartPhone {

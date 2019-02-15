@@ -4,7 +4,6 @@ import creation.factorymethod.phone.SmartPhone;
 import creation.factorymethod.phone.SmartisanR1;
 
 /**
- * @author justZero
  * @since 2019/2/14
  */
 public class SmartisanR1Factory extends Factory {

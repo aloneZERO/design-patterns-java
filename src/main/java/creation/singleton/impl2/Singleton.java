@@ -11,7 +11,6 @@ package creation.singleton.impl2;
  * 即使 uniqueInstance 已经被实例化了。这会让线程阻塞时间过长，
  * 因此该方法有性能问题，不推荐使用。
  *
- * @author justZero
  * @since 2019/2/14
  */
 public class Singleton {

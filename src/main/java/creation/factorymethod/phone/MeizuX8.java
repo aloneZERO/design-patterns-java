@@ -3,7 +3,6 @@ package creation.factorymethod.phone;
 /**
  * 魅族X8
  *
- * @author justZero
  * @since 2019/2/14
  */
 public class MeizuX8 implements SmartPhone {

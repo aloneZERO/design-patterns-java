@@ -8,7 +8,6 @@ package creation.singleton.impl3;
  * <p>
  * 但是直接实例化的方式也丢失了延迟实例化带来的节约资源的好处。
  *
- * @author justZero
  * @since 2019/2/14
  */
 public class Singleton {
