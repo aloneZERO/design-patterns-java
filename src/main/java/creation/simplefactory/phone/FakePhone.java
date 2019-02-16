@@ -1,7 +1,6 @@
 package creation.simplefactory.phone;
 
 /**
-
  * @since 2019/2/14
  */
 public class FakePhone implements SmartPhone {

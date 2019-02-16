@@ -1,7 +1,8 @@
 package creation.simplefactory.phone;
 
 /**
-
+ * 坚果 R1
+ *
  * @since 2019/2/14
  */
 public class SmartisanR1 implements SmartPhone {

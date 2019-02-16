@@ -1,10 +1,6 @@
 package creation.builder;
 
 /**
- * 生成器模式
- * <p>
- * 封装一个对象的构造过程，并允许按步骤构造。
- *
  * @since 2019/2/15
  */
 public class StringBuilder extends AbstractStringBuilder {
