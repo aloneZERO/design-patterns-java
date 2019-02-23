@@ -1,0 +1,17 @@
+@startuml
+
+title Simple Factory
+
+class Client
+class SimpleFactory {
+    + createProduct(): Product
+}
+interface Product
+class ConcreteProduct
+
+Client -> Product
+Client --> SimpleFactory
+ConcreteProduct -o Product
+SimpleFactory --> ConcreteProduct: "creates"
+
+@enduml

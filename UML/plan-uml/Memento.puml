@@ -1,0 +1,22 @@
+@startuml
+
+title Mementor
+
+class Originator {
+    +State state
+    +setMemento(Memento m): void
+    +createMementor(): Mementor
+}
+
+class Memento {
+    +State state
+    +getState(): State
+    +setState(Mementor): void
+}
+
+class Caretaker
+
+Originator -> Memento
+Memento -o Caretaker
+
+@enduml

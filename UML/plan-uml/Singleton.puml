@@ -1,0 +1,13 @@
+@startuml
+
+title Singleton
+
+class Singleton {
+    - uniqueInstance: Singleton
+    - Singleton()
+    + getUniqueInstance(): Singleton
+}
+
+Singleton -> Singleton
+
+@enduml

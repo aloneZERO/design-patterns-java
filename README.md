@@ -22,4 +22,10 @@
 
 欢迎对代码和 UML 图进行编辑改正！
 
-Created my free logo at LogoMakr.com @logomakr
+Created my free logo at [LogoMakr.com](https://logomakr.com/)
+
+## Changelog
+- 改为标准 Maven 项目结构。
+- 优化包结构，以及添加一些`Javadoc`注释。
+- 部分代码使用了 [Lombok](https://projectlombok.org/)。相关：[在 IDEA 中使用 Lombok](https://projectlombok.org/setup/intellij)。
+- 添加 PlanUML 文件。IDEA 安装`PlantUML integration`插件后，可对其直接浏览和编辑。更多 [PlanUML 集成方式](http://plantuml.com/zh/running)。
