@@ -17,7 +17,7 @@ public class GumballMachine {
     private State state;
     private int count = 0;
 
-    public GumballMachine(int numberGumballs) {
+    GumballMachine(int numberGumballs) {
         count = numberGumballs;
         soldOutState = new SoldOutState(this);
         noQuarterState = new NoQuarterState(this);
