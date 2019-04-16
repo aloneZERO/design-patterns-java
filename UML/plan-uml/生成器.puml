@@ -1,0 +1,26 @@
+@startuml
+
+title Builder
+
+class Director {
+    + construct(Builder): void
+}
+class Builder {
+    + buildPart(): void
+}
+note as N1
+    for all objects in structure:
+        builder.buildPart();
+end note
+class ConcreteBuilder {
+    + buildPart(): void
+    + getResult(): Product
+}
+class Product
+
+Director o- Builder
+Director .. N1
+Builder <|-- ConcreteBuilder
+ConcreteBuilder -> Product
+
+@enduml

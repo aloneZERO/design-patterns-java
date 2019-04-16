@@ -1,0 +1,27 @@
+@startuml
+
+title Prototype
+
+class Client {
+    + operation(): void
+}
+class Prototype {
+    + clone(): Prototype
+}
+note as n
+ConcreteProtype obj1 = new ConcreteProtype();
+ConcreteProtype obj2 = obj1.clone();
+end note
+class ConcreteProtype1 {
+    + clone(): Prototype
+}
+class ConcreteProtype2 {
+    + clone(): Prototype
+}
+
+Client -> Prototype
+Client .. n
+Prototype <|-- ConcreteProtype1
+Prototype <|-- ConcreteProtype2
+
+@enduml

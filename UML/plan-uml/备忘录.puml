@@ -1,6 +1,6 @@
 @startuml
 
-title Mementor
+title Memento
 
 class Originator {
     +State state

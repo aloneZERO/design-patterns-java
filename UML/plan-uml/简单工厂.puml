@@ -11,7 +11,7 @@ class ConcreteProduct
 
 Client -> Product
 Client --> SimpleFactory
-ConcreteProduct -o Product
-SimpleFactory --> ConcreteProduct: "creates"
+ConcreteProduct .|> Product
+SimpleFactory --> ConcreteProduct: "+creates"
 
 @enduml

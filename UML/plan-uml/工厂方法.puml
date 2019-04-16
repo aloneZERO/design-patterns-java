@@ -1,0 +1,33 @@
+@startuml
+
+title Factory Method
+
+interface Product
+class Factory {
+    + {abstract} factoryMethod(): Product
+    + doSomething(): void
+}
+class ConreteProduct
+class ConreteFactory {
+    + factoryMethod(): Product
+}
+
+note as N1
+  void doSomething() {
+      Product = factoryMethod();
+      // do something with the product.
+  }
+end note
+note as N2
+  Product factoryMethod() {
+      return new ConreteProduct();
+  }
+end note
+
+Product <|..  ConreteProduct
+Factory <|.. ConreteFactory
+ConreteProduct <- ConreteFactory
+Factory . N1
+ConreteFactory . N2
+
+@enduml
